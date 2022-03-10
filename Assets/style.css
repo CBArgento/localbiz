@@ -16,18 +16,19 @@
 
 /*Parallax jumbotron*/
 .jumbotron{
-    margin:15px 30px 0px 30px;
-    border-radius:10px;
+    margin:px 30px 0px 30px;
+    border-radius:0px;
       background: 
   linear-gradient(
     rgba(0, 0, 250, 0.25), 
     rgba(125, 250, 250, 0.45)
   ),
-  url(https://source.unsplash.com/1600x1050/?nature);
+  url(https://images.unsplash.com/photo-1575472782454-230f8dd14bd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=100);
   background-repeat: no-repeat;
   background-attachment: fixed;
   color:white !important;
-  height:340px;
+  height:440px;
+  width:100%;
   }
   
   .page-scroll{
@@ -44,5 +45,5 @@
   .lead{
     font-family:raleway;
     font-weight:100;
-    margin-top:-10px;
+    margin: top -15px;px;
   }
